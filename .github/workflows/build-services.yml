@@ -36,6 +36,7 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: ${{ env.REGISTRY }}/${{ env.OWNER }}/config-store
+        tags: 1.0.0
 
     - name: Build and push Docker image
       id: push
