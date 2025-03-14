@@ -28,6 +28,5 @@ db.authenticate()
   .catch((err) => {
     console.error('Unable to connect to DB');
     console.error(err);
-
-  })
+});
 
